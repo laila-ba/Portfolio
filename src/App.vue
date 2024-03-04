@@ -2,7 +2,7 @@ import Home from './views/Home.vue';
 
 <template>
   <body class="bg-gray-900">
-    <router-view>hello1</router-view>
+    <router-view></router-view>
     <!-- <canvas id="hero-lightpass" /> -->
   </body>
 </template>
