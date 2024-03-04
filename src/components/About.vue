@@ -1,21 +1,44 @@
 <template>
   <section id="about" class="about reveal">
+    <div class="overflow-hidden py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        >
+          <div class="lg:ml-auto lg:pl-4 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <div class="">
+                <h2
+                  class="text-6xl font-semibold leading-7 text-white text-center"
+                >
+                  About me
+                </h2>
+              </div>
+              <p class="mt-12 text-lg leading-8 text-gray-600">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start lg:order-first">
+            <img
+              src="../assets/img/laila-avatar.png"
+              alt="about-img"
+              class="rounded-full w-3/4"
+              width="2432"
+              height="1442"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section id="about" class="about reveal">
     <div class="about-card text-container">
       <div class="w-full max-w-xl xl:max-w-none xl:flex-auto xl:px-16 text-box">
         <img class="w-32" src="../assets/img//01-new.png" alt="" />
-        <!-- <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="131"
-          height="107"
-          fill="none"
-        >
-          <path
-            stroke="white
-"
-            stroke-width="2"
-            d="m10.266 88.302.005.008c7.704 11.4 19.03 17.09 33.829 17.09 14.897 0 26.274-5.687 33.979-17.09l.005-.008C83.927 79.487 86.8 67.823 86.8 53.4c0-4.884-.33-9.452-.992-13.7h17.931V103h25.55V3.65H107.2l-.146.826c-.847 4.8-3.572 8.886-8.297 12.26l-.008.006c-4.602 3.356-10.34 5.11-17.274 5.208l-.986.014v.646a43.086 43.086 0 0 0-2.405-4.111C70.576 7.083 59.191 1.4 44.1 1.4c-14.994 0-26.328 5.685-33.835 17.1C4.423 27.314 1.55 38.977 1.55 53.4c0 14.423 2.873 26.087 8.716 34.902ZM27.25 53.4c0-8.924 1.192-15.803 3.5-20.713 1.433-2.864 3.256-4.958 5.447-6.341 2.19-1.384 4.812-2.096 7.903-2.096 3.091 0 5.712.712 7.904 2.096 2.193 1.385 4.017 3.482 5.452 6.351 2.4 4.8 3.644 11.672 3.644 20.703 0 9.031-1.244 15.902-3.644 20.703-1.435 2.869-3.26 4.966-5.453 6.352-2.19 1.384-4.812 2.095-7.903 2.095-3.091 0-5.712-.711-7.904-2.096-2.19-1.383-4.013-3.477-5.446-6.34-2.308-4.91-3.5-11.79-3.5-20.714Z"
-          />
-        </svg>-->
+
         <h2
           class="text-7xl bg-white animate-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent font-black pt-6 text-center"
         >
@@ -76,7 +99,7 @@
             </p>
             <p>Here's a run down of my experince</p>
             <div class="cursor-pointer">
-              <a href="#about">
+              <a href="#projects">
                 <lottie-player
                   class="mx-auto -mt-12 cursor-pointer"
                   src="https://lottie.host/12d490c7-9b30-4ba9-af21-c10be56bd8b3/0wyQQs7Tli.json"
@@ -92,7 +115,7 @@
         </figure>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 <style>
 .project {

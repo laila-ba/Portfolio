@@ -1,9 +1,9 @@
 import Home from './views/Home.vue';
 
 <template>
-  <body class="background">
+  <body class="bg-gray-900">
     <router-view></router-view>
-    <canvas id="hero-lightpass" />
+    <!-- <canvas id="hero-lightpass" /> -->
   </body>
 </template>
 
@@ -18,14 +18,7 @@ import Home from './views/Home.vue';
   text-align: center;
   color: #2c3e50;
 }
-.background {
-  background: rgb(16, 16, 26);
-  background: radial-gradient(
-    circle,
-    rgba(16, 16, 26, 1) 52%,
-    rgba(21, 21, 54, 1) 100%
-  );
-}
+
 a {
   font-family: "Mark Pro";
 }
@@ -347,7 +340,7 @@ h2 {
     left top,
     left bottom,
     from(rgba(35, 37, 49, 0.5)),
-    to(rgba(15, 15, 24, 0.5))
+    to(rgb(17 24 39))
   );
   background: -webkit-linear-gradient(
     top,
@@ -599,11 +592,6 @@ html {
 body {
   overflow-x: hidden;
 }
-
-/* .container {
-  display: grid;
-  grid-template-columns: 1fr repeat(12, minmax(min-content, 10rem)) 1fr;
-} */
 
 .cursor {
   width: 8rem;
