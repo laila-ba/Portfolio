@@ -2,7 +2,7 @@ import Home from './views/Home.vue';
 
 <template>
   <body class="bg-gray-900">
-    <router-view></router-view>
+    <router-view>this is app being mounted</router-view>
     <!-- <canvas id="hero-lightpass" /> -->
   </body>
 </template>
